@@ -1,0 +1,27 @@
+.survival__button {
+    color: #f7f7f7;
+    background-color: #cd6326;
+    border: none;
+    border-radius: 5px;
+    padding: 0px;
+    font-size: 23px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+}
+
+.survival__button:hover {
+    cursor: pointer;
+    background-color: #e68f32;
+ 
+}
+
+.survival__button:focus {
+    background-color: #8f5613;
+    outline: none;
+}
+
+

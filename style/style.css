@@ -1,0 +1,18 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/_Open_sans/fonts_open_sans.css');
+@import url('../fonts/_Roboto/fonts_roboto.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/hero/hero.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/__image/logo__image.css');
+@import url('../blocks/logo/__title/logo__title.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__list-item/header__item.css');
+@import url('../blocks/header/__list-link/header__link.css');
+@import url('../blocks/header/__list/header__list.css');
+@import url('../blocks/header/__sing-in/header__sing-in.css');
+@import url('../blocks/survival/survival.css');
+@import url('../blocks/survival/__button/survival__button.css');
+@import url('../blocks/survival/__text/survival__text.css');
+@import url('../blocks/survival/__title/survival__title.css');
+

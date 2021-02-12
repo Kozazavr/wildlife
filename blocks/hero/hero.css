@@ -1,0 +1,14 @@
+.hero {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #02160b;
+    background: url('../../images/header-survival__background.jpg');
+    min-height: 779px;
+    color: #f7f7f7;
+    box-sizing: border-box;
+    margin-top: 1px;
+}
+
+
+
+
