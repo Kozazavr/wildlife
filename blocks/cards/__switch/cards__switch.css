@@ -1,0 +1,23 @@
+.cards__switch {
+    border: none;
+    background: inherit;
+    padding: 10px;
+    margin: 130px 0;
+}
+
+.cards__switch:hover {
+    cursor: pointer;
+}
+
+.cards__switch:hover svg path{
+    fill: #E39128;
+}
+
+.cards__switch:active svg path{
+    fill: #CD6326;
+}
+
+.cards__switch:focus {
+    outline: none;
+}
+

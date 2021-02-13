@@ -11,8 +11,25 @@
 @import url('../blocks/header/__list-link/header__link.css');
 @import url('../blocks/header/__list/header__list.css');
 @import url('../blocks/header/__sing-in/header__sing-in.css');
+@import url('../blocks/header/__loupe/header__loupe.css');
 @import url('../blocks/survival/survival.css');
 @import url('../blocks/survival/__button/survival__button.css');
 @import url('../blocks/survival/__text/survival__text.css');
 @import url('../blocks/survival/__title/survival__title.css');
-
+@import url('../blocks/latest-articles/latest-articles.css');
+@import url('../blocks/latest-articles/__title/latest-articles__title.css');
+@import url('../blocks/latest-articles/__text/latest-articles__text.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__text/cards__text.css');
+@import url('../blocks/cards/__title/cards__title.css');
+@import url('../blocks/cards/__subtitle/');
+@import url('../blocks/cards/__switch/cards__switch.css');
+@import url('../blocks/cards/__switch/_left/cards__switch_left.css');
+@import url('../blocks/cards/__container/cards__container.css');
+@import url('../blocks/get-notified/get-notified.css');
+@import url('../blocks/get-notified/__title/get-notified__title.css');
+@import url('../blocks/get-notified/__form/get-notified__form.css');
+@import url('../blocks/get-notified/__form/_input/get-notified__form_input.css');
+@import url('../blocks/get-notified/__form/_button/get-notified__form_button.css');
+@import url('../blocks/footer/footer.css');
