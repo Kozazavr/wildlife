@@ -1,8 +1,16 @@
 .get-notified {
-    background: #cccccc;
     margin: 0px;
     padding: 117px 0 240px 0;
 }
 
+@media screen and (max-width: 999px) {
+    .get-notified {
+        padding: 100px 0 120px 0;
+    }
+}
 
-
+@media screen and (max-width: 600px) {
+    .get-notified {
+        padding: 100px 30px;
+    }
+}

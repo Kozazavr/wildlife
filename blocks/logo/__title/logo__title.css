@@ -1,15 +1,28 @@
 .logo__title {
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
     font-size: 32px;
     line-height: 60px;
-    margin: 0px;
-    margin-left: 15.73px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: normal;
     color: #f7f7f7;
+    margin: 0px 0px 0px 15.73px;    
+    min-width: 154.29px;
 }
 
 
+@media screen and (max-width: 699px) {
+    .logo__title {
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 10px;
+        min-width: 130px;
+    }
+}
 
+@media screen and (max-width: 470px) {
+    .logo__title {
+        min-width: 120px;
+    }
+}
 

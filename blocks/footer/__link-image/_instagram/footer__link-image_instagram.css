@@ -1,0 +1,10 @@
+.footer__link-image_instagram {
+    background-image: url('../../../../images/footer__instagram.svg');
+}
+
+.footer__link-image_instagram:hover {
+    background-image: url('../../../../images/footer__instagram_hover.svg');
+}
+
+
+

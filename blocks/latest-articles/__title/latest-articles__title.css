@@ -3,7 +3,21 @@
     padding: 120px 0 20px 0;
     font-size: 48px;
     line-height: 72px;
-    color: #333333;
     font-weight: 400;
+    color: #333333;    
 }
 
+
+@media screen and (max-width: 999px) {
+    .latest-articles__title {
+        font-size: 38px;
+        line-height: 62px;       
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .latest-articles__title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+}

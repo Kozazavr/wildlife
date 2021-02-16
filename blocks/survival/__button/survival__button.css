@@ -1,13 +1,13 @@
 .survival__button {
-    color: #f7f7f7;
     background-color: #cd6326;
     border: none;
     border-radius: 5px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     line-height: 27px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: #f7f7f7;
     width: 160px;
     height: 60px;
     text-align: center;
@@ -16,7 +16,6 @@
 .survival__button:hover {
     cursor: pointer;
     background-color: #e68f32;
- 
 }
 
 .survival__button:focus {
@@ -24,4 +23,19 @@
     outline: none;
 }
 
+@media screen and (max-width: 840px) {
+    .survival__button {
+        font-size: 18px;
+        line-height: 20px;
+        width: 120px;
+        height: 40px;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .survival__button {
+        width: 106px;
+        height: 38px;
+        margin-top: 10px;
+    }
+}

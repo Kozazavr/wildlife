@@ -1,0 +1,8 @@
+@media screen and (max-width: 699px) {
+    .cards__switch_right {
+        margin: 30px 0px 0px 0px;
+        transform: rotate(90deg);
+    }
+}
+
+

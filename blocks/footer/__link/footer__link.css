@@ -1,0 +1,28 @@
+.footer__link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 60px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    color: #CD6326;
+}
+
+
+@media screen and (max-width: 999px) {
+    .footer__link {
+        font-size: 18px; 
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .footer__link {
+        font-size: 18px; 
+        line-height: 30px;
+    }
+}

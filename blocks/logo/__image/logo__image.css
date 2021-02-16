@@ -2,4 +2,11 @@
     width: 70px;
     height: 60px;
 }
+  
+@media screen and (max-width: 699px) {
+    .logo__image {
+        width: 35px;
+        height: 30px;
+    }
+}
 

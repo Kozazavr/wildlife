@@ -1,10 +1,15 @@
 .cards__subtitle {
-    bottom: 40px;
-    left: 57px;
     font-size: 17px;
     line-height: 27px;
-    margin: 10px 0 0 0;
-    padding: 0px;
     font-weight: 400;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 999px) {
+    .cards__subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
 

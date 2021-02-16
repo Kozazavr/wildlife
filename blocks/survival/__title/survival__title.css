@@ -1,13 +1,24 @@
 .survival__title {
+    font-family: 'Open Sans';
     font-size: 48px;
     line-height: 72px;
+    font-weight: 400;
     letter-spacing: 2px;
     color: #CD6326;
-    font-family: 'Open Sans';
-    font-weight: 400;
     margin: 0px;
-
 }
 
+@media screen and (max-width: 999px) {
+    .survival__title {
+        font-size: 38px;
+        line-height: 62px;
+    }
+}
 
+@media screen and (max-width: 840px) {
+    .survival__title {
+        line-height: 40px;
+        font-size: 30px;
+    }
+} 
 

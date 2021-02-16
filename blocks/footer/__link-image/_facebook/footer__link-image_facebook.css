@@ -1,0 +1,8 @@
+.footer__link-image_facebook {
+    background-image: url('../../../../images/footer__facebook.svg');
+}
+
+.footer__link-image_facebook:hover {
+    background-image: url('../../../../images/footer__facebook_hover.svg');
+}
+

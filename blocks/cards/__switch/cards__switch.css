@@ -1,8 +1,8 @@
 .cards__switch {
     border: none;
     background: inherit;
-    padding: 10px;
-    margin: 130px 0;
+    margin: 130px 0px;
+    padding: 0px;
 }
 
 .cards__switch:hover {
@@ -10,14 +10,27 @@
 }
 
 .cards__switch:hover svg path{
-    fill: #E39128;
+    fill: #f7f7f7;
 }
 
 .cards__switch:active svg path{
-    fill: #CD6326;
+    fill: #333333;
 }
 
 .cards__switch:focus {
     outline: none;
 }
 
+
+@media screen and (max-width: 999px) {
+    .cards__switch {
+        margin: 93px 0px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .cards__switch {
+        margin: 0px 0px 30px 0px;
+        transform: rotate(90deg);
+    }
+}

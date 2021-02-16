@@ -14,3 +14,9 @@
 
 }
 
+@media screen and (max-width: 999px) {
+    .header__list-item {
+        font-size: 18px; 
+        line-height: 55px;
+    }
+}

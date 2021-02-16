@@ -1,7 +1,25 @@
 .latest-articles {
-    background-color: #cccccc;
-    margin: 0px;
+    max-width: 1440px;
     padding: 0 110px 120px 110px;
     font-family: 'Open sans', sans-serif;
     text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .latest-articles {
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .latest-articles {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .latest-articles {
+        padding: 0 30px;
+    }
 }

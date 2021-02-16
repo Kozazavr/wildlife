@@ -1,12 +1,10 @@
 .get-notified__form_input {
-    
     padding: 0px 15px;
     outline: none;
-    line-height: 27px;
     font-size: 23px;
+    line-height: 27px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #666666;
     min-width: 509px;
     min-height: 60px;
     border: 1px solid #666666;
@@ -14,5 +12,24 @@
     background-color: inherit;
 }
 
+@media screen and (max-width: 840px) {
+    .get-notified__form_input {
+        padding: 0px 10px;
+        font-size: 15px;
+        line-height: 20px;
+        min-height: 40px;
+    }
+}
 
+@media screen and (max-width: 699px) {
+    .get-notified__form_input {
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .get-notified__form_input {
+        min-width: 180px;
+    }
+}
 

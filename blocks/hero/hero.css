@@ -1,14 +1,73 @@
 .hero {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    background-color: #02160b;
     background: url('../../images/header-survival__background.jpg');
     min-height: 779px;
     color: #f7f7f7;
     box-sizing: border-box;
     margin-top: 1px;
+    max-width: 1440px;
+    padding: 19px 120px 0px;
+    background-color: #02160b;
+    margin: 0 auto;
 }
 
 
 
+@media screen and (max-width: 1439px) {
+    .hero {
+        max-width: 1200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 649px;
+    }
+}
 
+@media screen and (max-width: 1199px) {
+    .hero {
+        max-width: 1199px;
+        min-height: 540px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 1099px) {
+    .hero {
+        padding: 19px 60px 0px;
+    }
+}
+ 
+@media screen and (max-width: 999px) {
+    .hero {
+        min-height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+  
+@media screen and (max-width: 840px) {
+    .hero {
+        min-height: 330px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 19px 30px 0px;
+    }
+}
+  
+@media screen and (max-width: 699px) {
+    .hero {
+        min-height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 19px 30px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        padding: 19px 30px 10px;
+        background-size: contain;
+    }
+}

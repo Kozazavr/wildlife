@@ -6,3 +6,16 @@
     color: #666666;
 }
 
+
+@media screen and (max-width: 999px) {
+    .latest-articles__text {
+        padding: 0 0 60px 0;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .latest-articles__text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

@@ -1,10 +1,17 @@
 .cards__title {
-    left: 124px;
     font-size: 22px;
     line-height: 36px;
     font-weight: 400;
     margin: 0px;
     padding: 0px;
+}
+
+
+@media screen and (max-width: 1260px) {
+    .cards__title {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
   
   

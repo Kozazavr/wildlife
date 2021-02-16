@@ -1,6 +1,21 @@
 .survival {
-    padding: 120px 0 0 120px;
+    padding-top: 120px;
 }
 
+@media screen and (max-width: 1199px) {
+    .survival {
+        padding-top: 60px;
+    }
+}
 
+@media screen and (max-width: 840px) {
+    .survival {
+        padding-top: 30px;
+    }
+}
 
+@media screen and (max-width: 699px) {
+    .survival {
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,7 @@
+.footer__link-image_pinterest {
+    background-image: url('../../../../images/footer__pinterest.svg');
+}
+
+.footer__link-image_pinterest:hover {
+    background-image: url('../../../../images/footer__pinterest_hover.svg');
+}

@@ -6,3 +6,25 @@
     margin: 51px 0 49px;
 }
 
+@media screen and (max-width: 999px) {
+    .survival__text {
+        margin: 16px 0 29px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .survival__text {
+        margin: 10px 0px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .survival__text {
+        line-height: 15px;
+        font-size: 13px;
+        width: 250px;
+    }
+}
+

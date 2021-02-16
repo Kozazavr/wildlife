@@ -1,8 +1,8 @@
 .get-notified__form_button {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 23px;
     line-height: 27px;
+    font-weight: 400;
     color: #f7f7f7;
     border: none;
     background-color: #CD6326;
@@ -16,7 +16,6 @@
 .get-notified__form_button:hover {
     cursor: pointer;
     background-color: #e68f32;
- 
 }
 
 .get-notified__form_button:active {
@@ -24,3 +23,21 @@
     outline: none;
 }
 
+@media screen and (max-width: 840px) {
+    .get-notified__form_button {
+        padding: 0px 10px;
+        font-size: 15px;
+        line-height: 20px;
+        min-height: 40px;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+    .get-notified__form_button {
+        padding: 0px 10px;
+        font-size: 15px;
+        line-height: 20px;
+        min-height: 40px;
+        min-width: 40px;
+    }
+}

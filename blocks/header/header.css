@@ -2,7 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 19px 120px 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 
