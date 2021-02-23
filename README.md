@@ -1,9 +1,10 @@
-# Научиться учиться 
+# WILDLIFE
 
-Проектная работа №2 в **Яндекс.Практикум**. Сайт описывает подходы и техники эффективного обучения в любом возрасте.
+Project work #0 in * * RS School**. The protection of the environment.
 
-На данный момент представляет собой статический одностраничник с добавлением анимации и мультимедиа. Написан на HTML5 и CSS3. В работе использовалась методология БЭМ.
+At the moment, it is a static one-page page with the addition of animation and multimedia. It is written in HTML5 and CSS3. The photo slider is implemented using JS.
+The BEM methodology was used in the work.
 
-В планах сделать ссылки на сайте рабочими, добавив соответствующие материалы и переходы на сторонние сайты.
+The site is adaptive, media queries are registered in the control points.
  
 
