@@ -3,4 +3,16 @@
     position: relative;
 }
 
+@media screen and (max-width: 750px) {
+    .cards__item:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cards__item:last-child {
+        display: none;
+    }
+}
+
   

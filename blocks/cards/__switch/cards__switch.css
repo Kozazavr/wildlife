@@ -28,9 +28,9 @@
     }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 600px) {
     .cards__switch {
-        margin: 0px 0px 30px 0px;
-        transform: rotate(90deg);
+        margin: 0px 0px 30px 0px; 
+        transform: rotate(90deg); 
     }
 }

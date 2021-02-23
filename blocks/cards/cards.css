@@ -25,9 +25,17 @@
     }
 }
 
-@media screen and (max-width: 699px) {
+
+@media screen and (max-width: 750px) {
+    .cards {
+        min-width: 380px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .cards {
         min-width: 180px;
         flex-direction: column;
+
     }
 }

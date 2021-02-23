@@ -5,7 +5,13 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 750px) {
+    .cards__container {
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .cards__container {
         flex-direction: column;
     }
