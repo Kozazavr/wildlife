@@ -39,8 +39,9 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__link-container-youtube/footer__link-container-youtube.css');
 @import url('../blocks/footer/__link-image/footer__link-image.css');
 @import url('../blocks/footer/__link-image/_facebook/footer__link-image_facebook.css');
 @import url('../blocks/footer/__link-image/_instagram/footer__link-image_instagram.css');
 @import url('../blocks/footer/__link-image/_pinterest/footer__link-image_pinterest.css');
-@import url('../blocks/footer/__link-image/_telegram/footer__link-image_telegram.css');
+@import url('../blocks/footer/__link-image/_youtube/footer__link-image_youtube.css');

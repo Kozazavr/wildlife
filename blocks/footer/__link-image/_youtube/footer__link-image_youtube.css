@@ -1,0 +1,11 @@
+.footer__link-image_youtube {
+    background-image: url('../../../../images/footer__youtobe.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.footer__link-image_youtube:hover {
+    background-image: url('../../../../images/footer__youtobe_hover.svg');
+    cursor: pointer;
+}
