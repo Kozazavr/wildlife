@@ -7,4 +7,4 @@ The BEM methodology was used in the work.
 
 The site is adaptive, media queries are registered in the control points.
  
-
+https://kozazavr.github.io/wildlife/
